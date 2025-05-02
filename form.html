@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Text+Me+One&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+    <title>Nexus Forms</title>
+</head>
+<body>
+<main>
+    <article>
+        <h3>Nexus Contact Forms</h3>
+    </article>
+    <form>
+        <label>
+            <input placeholder="[]" class="nameFld" type="text"/>
+            <span>Full Name</span>
+        </label>
+        <label>
+            <input placeholder="[]" class="phonFld" type="tel"/>
+            <span>Contact Number</span>
+        </label>
+        <label class="txtFld">
+            <textarea class="addrFld"></textarea>
+            <span>Address</span>
+        </label>
+        <label>
+            <input placeholder="[]" class="cmpyFld" type="text"/>
+            <span>Company Name</span>
+        </label>
+        <label>
+            <input placeholder="[]" class="mailFld" type="email"/>
+            <span>Email Address</span>
+        </label>
+        <label>
+            <input placeholder="[]" class="oterFld" type="text"/>
+            <select>
+                <option>Human Resource</option>
+                <option>Sales</option>
+                <option>Development</option>
+                <option>Marketing</option>
+                <option class="defOpt">Others</option>
+            </select>
+            <span>Department</span>
+        </label>
+        <article>
+            <p>Gender</p>
+            <label>
+                <input type="radio" checked="checked" name="gen">Male<span></span>
+            </label>
+            <label>
+                <input type="radio" name="gen">Female<span></span>
+            </label>
+            <label>
+                <input type="radio" name="gen">Prefer not to stay<span></span>
+            </label>
+        </article>
+        <button type="submit">Submit</button>
+    </form>
+</main>
+</body>
+</html>
